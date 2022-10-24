@@ -1,0 +1,28 @@
+{
+  "name": "jo",
+  "version": "0.1.0",
+  "description": "",
+  "main": "main.ol",
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "repo": "",
+  "keywords": [],
+  "author": "fmontesi",
+  "license": "ISC",
+  "dockerfile": true,
+  "devcontainer": true,
+  "scripts": {
+    "build": "webpack"
+  },
+  "jolie": {
+    "dependencies": {
+      "@jolie/leonardo": "0.4.1"
+    },
+    "maven": {
+      "dependencies": {},
+      "indirectDependencies": {}
+    }
+  },
+  "dependencies": {
+    "@jolie/jo": "^1.0.1"
+  }
+}
