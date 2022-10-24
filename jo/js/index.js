@@ -1,6 +1,6 @@
-import { Jo, JoHelp } from '@jolie/jo'
+import { Jor, JoHelp } from '@jolie/jo'
 
-Jo.viewUser( { username: "john" } )
+Jor["user/john"].get()
 	.then( response => {
 		document.getElementById( 'hello-webpack' ).innerText = `User found: name = ${response.name}, karma = ${response.karma}`
     } )
