@@ -40,8 +40,8 @@ service Backend {
             username= "",
             password= "",
             host= "",
-            database= "./db",
-            driver= "csv"
+            database= "./db/db.db",
+            driver= "sqlite"
           } )( void )
         checkConnection@database()()
         println@console("successfully connect to the database")()
