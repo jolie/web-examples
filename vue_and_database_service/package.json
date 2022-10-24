@@ -1,0 +1,37 @@
+{
+  "name": "webserver",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "start-jolie": "jolie main.ol",
+    "watch": "nodemon --ignore 'web' -e ol,vue,js --signal SIGINT --exec 'npm run build && npm run start-jolie'"
+  },
+  "main": "main.ol",
+  "dependencies": {
+    "@jolie/jo": "^1.0.1",
+    "core-js": "^3.8.3",
+    "vue": "^3.2.13"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "nodemon": "^2.0.20"
+  },
+  "_id": "webserver@0.1.0",
+  "jolie": {
+    "dependencies": {
+      "@jolie/leonardo": "0.4.1"
+    },
+    "maven": {
+      "dependencies": {},
+      "indirectDependencies": {}
+    }
+  },
+  "keywords": [],
+  "license": "ISC",
+  "readme": "ERROR: No README data found!",
+  "repo": "",
+  "test": "echo \"Error: no test specified\" && exit 1"
+}
