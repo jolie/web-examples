@@ -1,5 +1,4 @@
-const Jo = require("@jolie/jo").Jo
-const JoHelp = require("@jolie/jo").JoHelp
+import { Jo, JoHelp } from '@jolie/jo'
 
 Jo.viewUser( { username: "john" } )
 	.then( response => {
