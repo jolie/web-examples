@@ -7,11 +7,12 @@
   "repo": "",
   "keywords": [],
   "author": "fmontesi",
-  "license": "ISC",
+  "license": "MIT",
   "dockerfile": true,
   "devcontainer": true,
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "postinstall": "jpm install"
   },
   "jolie": {
     "dependencies": {
@@ -23,9 +24,10 @@
     }
   },
   "dependencies": {
-    "@jolie/jo": "^1.0.1"
+    "@jolie/jo": "^1.0.2"
   },
   "devDependencies": {
+    "@jolie/jpm": "^2.0.0",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0"
   }
