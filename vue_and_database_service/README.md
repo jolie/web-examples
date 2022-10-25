@@ -2,8 +2,6 @@
 
 This is a a small show case on how to use Jolie to served Vue web application. Please see `backend.ol` for an example of creating a connection to Database with Jolie.
 
-**Notice**: In this example, we use SQLite as a database, this required a presence of SQLite jdbc driver in `lib` directory. Make sure that you have the correct jdbc driver for the Database technology you are using.
-
 ## Project setup
 
 Install npm/jpm dependencies

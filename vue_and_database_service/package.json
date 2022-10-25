@@ -25,7 +25,9 @@
       "@jolie/leonardo": "0.4.1"
     },
     "maven": {
-      "dependencies": {},
+      "dependencies": {
+        "org.xerial:sqlite-jdbc": "3.39.3.0"
+      },
       "indirectDependencies": {}
     }
   },
