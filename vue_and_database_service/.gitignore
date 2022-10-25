@@ -24,3 +24,4 @@ pnpm-debug.log*
 
 web/
 packages/
+lib/
