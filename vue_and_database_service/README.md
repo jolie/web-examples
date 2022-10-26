@@ -7,7 +7,7 @@ This is a a small show case on how to use Jolie to served Vue web application. P
 Install npm/jpm dependencies
 
 ``` bash
-npm install && jpm install
+npm install # jpm install will be run automatically through postinstall
 ```
 
 ### Compiles and hot-reloads for development

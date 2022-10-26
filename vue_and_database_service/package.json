@@ -6,11 +6,12 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "start-jolie": "jolie main.ol",
+    "postinstall": "jpm install",
     "watch": "nodemon --ignore 'web' -e ol,vue,js --signal SIGINT --exec 'npm run build && npm run start-jolie'"
   },
   "main": "main.ol",
   "dependencies": {
-    "@jolie/jo": "^1.0.1",
+    "@jolie/jo": "^1.1.0",
     "core-js": "^3.8.3",
     "vue": "^3.2.13"
   },
